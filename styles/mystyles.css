@@ -1,0 +1,59 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:black;
+}
+
+.masthead {
+    height: 1000px;
+}
+
+.bright_link{
+    color: plum;
+}
+
+.border-top{
+    background-color: black;
+}
+
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.custom_sub{
+    font-family: papyrus;
+    font-size: 23px;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+  
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+p{
+    font-family: papyrus;
+}
+
+.custom_color{
+    color: white
+}
+
+.big_header{
+    font-size: 30px;
+}
+ 
+.link1{
+    font-style: italic;
+}
+
+.resume{
+    font-family: papyrus; 
+    font-size: 100px;
+    padding-left: 100px;   
+}
